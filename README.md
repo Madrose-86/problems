@@ -1,4 +1,4 @@
-# problems-
+# Greatest among three numbers using basic java -
 
 import java.util.Scanner;
 
