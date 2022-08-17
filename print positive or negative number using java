@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class practise{
+
+    public static void main(String[] arg){
+    
+        Scanner sc = new Scanner(System.in);
+        System.out.println(("enter number: "));
+        double num = sc.nextDouble();
+        
+        if (num > 0.0){
+        
+            if( num < 1.0){
+                System.out.println("the number is small positive number");
+            
+            }else if (num > 1000000) {
+                System.out.print("the number is large positive number");
+            }
+            else {
+                System.out.println("Positive number");
+            }
+        }
+        else if (num < 0.0){
+        
+            if (Math.abs(num) < 1){
+                System.out.println("Negative small number");
+
+            }else if (Math.abs(num)> 1000000){
+                System.out.println("Negative large number");
+            }
+            else{
+                System.out.println("Negative number");
+            }
+
+        }
+        else{
+            System.out.println("zero");
+        }
+    }
+
+    }
